@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches release groups with season packs who fall under Trash Tier 1' where "name" = 'Trash Tier 1' and "description" = 'Matches release groups who fall under Trash Tier 1';

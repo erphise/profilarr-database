@@ -1,0 +1,1 @@
+update "radarr_quality_definitions" set "min_size" = 0, "max_size" = 0, "preferred_size" = 60 where "name" = 'Radarr' and "quality_name" = 'Bluray-1080p' and "min_size" = 0 and "max_size" = 0 and "preferred_size" = 1990;

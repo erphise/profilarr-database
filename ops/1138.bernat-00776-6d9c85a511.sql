@@ -1,0 +1,1 @@
+update "regular_expressions" set "description" = 'Matches edition keywords only if they appear after a 4-digit year.' where "name" = 'Special Edition' and "description" = 'Matches any type of non theatrical edition. ';

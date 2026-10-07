@@ -1,0 +1,1 @@
+update "regular_expressions" set "description" = 'Matches text containing an H.264/AVC codec and a WEB source (WEB or WEB-DL, but not WEBRip), case-insensitively.' where "name" = 'h264' and "description" = 'An open source encoder that produces H.264 videos. ';

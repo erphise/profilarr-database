@@ -1,0 +1,1 @@
+update "sonarr_naming" set "series_folder_format" = '{Series CleanTitleWithoutYear} {(Series Year)} {tvdb-{TvdbId}}' where "name" = 'Anime - TRaSH Guides' and "series_folder_format" = '{Series CleanTitleWithoutYear} {(Series Year)}';

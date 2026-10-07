@@ -1,0 +1,1 @@
+update "regular_expressions" set "pattern" = '(?i)(?<=^|[\s.\-\[\]])\b(eml[.\s-]?hdteam(?:[.\s-]?series)?|Whisky135|bebos123|Kowalski|HDBart|TorrentLand)\b' where "name" = 'TorrentLand' and "pattern" = '(?<=^|[\s.-])(eml[.\s-]?hdteam(?:[.\s-]?series)?|Whisky135|bebos123|Kowalski|HDBart|TorrentLand)\b';

@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches release groups who fall under Balanced Tier 2' where "name" = 'Balanced Tier 2' and "description" = 'Matches release groups who fall under 1080p Balanced Tier 2';

@@ -1,0 +1,1 @@
+update "regular_expressions" set "pattern" = '(?<=\b[12]\d{3}\b).*\b(?<!dts[ .-]?hd[ .-]?)(MA|YKW)\b(?=.*\bweb[ ._-]?(dl|rip)\b)' where "name" = 'Movies Anywhere' and "pattern" = '\b(?<!DTS[ .-]?HD[ .-]?)(MA|YKW)\b(?=.*\bWEB[ ._-]?(DL|RIP)\b)';

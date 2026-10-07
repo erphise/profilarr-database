@@ -1,0 +1,1 @@
+update "regular_expressions" set "description" = 'Filmin' where "name" = 'Filmin' and "description" = 'Apple TV+ is an American subscription OTT streaming service owned and operated by Apple Inc. Launched on November 1, 2019, it offers a selection of original production film and television series called Apple Originals.';

@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches release groups with season packs who fall under Trash Tier 2' where "name" = '1080p Compact TV Trash Tier 2' and "description" = 'Matches release groups who fall under 1080p Compact TV Trash Tier 2';

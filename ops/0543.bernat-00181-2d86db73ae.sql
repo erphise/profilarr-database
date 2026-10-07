@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches all releases that do NOT contain the original language or the spanish language.' where "name" = 'Language: Not Original/Spanish' and "description" = '';
