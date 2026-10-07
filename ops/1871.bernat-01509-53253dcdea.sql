@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches release groups who fall under WEBRip Tier 3' where "name" = 'WEBRip Tier 3' and "description" = 'Matches release groups who fall under 1080p Compact Movie WEB Tier 3';

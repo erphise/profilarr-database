@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Attempts to match x265 encodes that aren''t labelled with any codec.' where "name" = 'x265 (Missing)' and "description" = 'Attempts to match 2160p x265 encodes that aren''t labelled with any codec. ';

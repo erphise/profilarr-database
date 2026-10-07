@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches release groups who fall under Bluray Tier 4' where "name" = 'Bluray Tier 4' and "description" = 'Matches release groups who fall under 1080p Compact Movie Bluray Tier 4';

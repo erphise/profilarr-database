@@ -1,0 +1,1 @@
+update "condition_patterns" set "regular_expression_name" = 'TAoE / QxR / Vialle' where "custom_format_name" = 'Movie Bluray Tier 2' and "condition_name" = 'TAoE' and "regular_expression_name" in ('TAoE', 'TAoE / QxR / Vialle');

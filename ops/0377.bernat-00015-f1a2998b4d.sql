@@ -1,0 +1,1 @@
+update "delay_profiles" set "bypass_if_above_custom_format_score" = 1, "minimum_custom_format_score" = 449 where "name" = 'Sonarr' and "bypass_if_above_custom_format_score" = 0 and "minimum_custom_format_score" is null;

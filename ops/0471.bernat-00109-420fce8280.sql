@@ -1,0 +1,1 @@
+update "regular_expressions" set "description" = 'Matches HEVC/x265 releases, excluding WEB-DL releases labeled only as HEVC (without x265) and excluding AV1.' where "name" = 'x265' and "description" = 'An open source encoder that produces H.265 videos. ';

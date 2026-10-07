@@ -1,0 +1,1 @@
+update "regular_expressions" set "description" = 'Matches H.265/HEVC while excluding entries that contain both x265 and HEVC together.' where "name" = 'h265' and "description" = 'A video compression standard that delivers higher efficiency than H.264, enabling better quality at lower bitrates, ideal for 4K and HDR content.';

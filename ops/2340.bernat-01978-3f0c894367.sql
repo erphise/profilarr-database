@@ -1,0 +1,8 @@
+UPDATE custom_format_conditions
+SET arr_type = 'sonarr'
+WHERE custom_format_name = 'WEBRip Tier 5'
+  AND name = 'Bluray'
+  AND type = 'release_title'
+  AND arr_type = 'all'
+  AND negate = 1
+  AND required = 1;

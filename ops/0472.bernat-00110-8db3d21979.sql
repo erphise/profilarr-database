@@ -1,0 +1,1 @@
+update "regular_expressions" set "pattern" = '^(?=.*(?i)(HEVC|DS4K|x\s?\.?265))(?!(?i)(?=.*HEVC)(?=.*WEB-DL)(?!.*x\s?\.?265))(?i)(?!.*(?<!\w)[\.\-\[_]?AV1[\.\-\]_]?(?!\w)).*$' where "name" = 'x265' and "pattern" = '^(?!.*remux).*([x][ ._-]?265|\bHEVC(\b|\d))';

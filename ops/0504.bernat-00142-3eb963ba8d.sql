@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Tries to match all WEB-DL with H.264 Codec that are less than 10GB in size that the CF "h264" could not match.' where "name" = 'h264 (missing)' and "description" = 'Matches all WEB-DL with H.264 Codec that are less than 10GB in size.';

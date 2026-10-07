@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches release groups who fall under HDTV Tier 1' where "name" = 'HDTV Tier 1' and "description" = 'Matches release groups who fall under 1080p HDTV Tier 1';

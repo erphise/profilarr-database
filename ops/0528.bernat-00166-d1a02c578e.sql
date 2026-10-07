@@ -1,0 +1,1 @@
+update "custom_formats" set "description" = 'Matches all WEB-DL with H.265 Codec that are LESS than 10GB in size.' where "name" = 'h265 + 10GB' and "description" = '';
